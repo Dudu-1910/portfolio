@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- FONTES -->
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&family=Fjalla+One&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap" rel="stylesheet">
+
+  <!-- STYLE -->
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+
+
+  <title>Eduardo Henrique - Portifólio</title>
+
+</head>
+
+<body>
+  <main id="portifolio">
+    <header class="barra-navegacao">
+      <nav>
+        <ul class="top-menu">
+          <li><a href="#" id="nome">Eduardo Henrique</a></li>
+          <li><a href="#sobre-total">Sobre mim</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contatos">Contato</a></li>
+        </ul>
+      </nav>
+      <div class="tema tooltip">
+        <label>
+          <span class="tooltiptext">Tema</span>
+          <input class="input-checkbox" name="botão muda tema" type="checkbox" onclick="mudaTema()">
+          <span class="check"></span>
+        </label>
+      </div>
+    </header>
+
+    <section class="home">
+      <div class="titulo-principal">
+        <h1>Olá,<br> seja bem-vindo ao meu portifólio.</h1>
+      </div>
+
+      <div class="container perfil">
+        <div class="img">
+          <figure>
+            <img class="img-avatar" src="./assets/img/avatar.jpg" alt="avatar Eduardo Henrique">
+          </figure>
+        </div>
+        <div class="sobre-avatar">
+          <h1>Sou Eduardo</h1>
+          <h2>Desenvolvedor Front-End</h2>
+          <p>
+            Apaixonado por tecnologia graduando em Engenharia de Software. Com o sonho de me tornar um Programador
+            Full-Stack de sucesso.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre-total">
+      <div class="titulo-sobre-mim">
+        <h1 class="titulo-sobre-mim">
+          Sobre mim
+        </h1>
+      </div>
+
+
+      <div class="container sobre-mim">
+        <div class="sobre-mim">
+          <p>
+            Meu nome é Eduardo henrique, tenho 28 anos e no momento estou cursanso Desenvolvimento Web. Atualmente estou
+            ingressando
+            na aréa como desenvolvedor <strong>Front-End</strong> desenvolvendo alguns projetos pessoais utilizando
+            tecnologias como <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>. Minha principal
+            meta
+            é me tornar um desenvolvedor Full-Stack.
+          </p>
+        </div>
+        <figure>
+          <img class="img-eduardo" src="./assets/img/foto-eduardo.jpg" alt="Foto apresentação">
+        </figure>
+      </div>
+    </section>
+
+    <section id="habilidades">
+      <div>
+        <h2 class="titulo-skills">Habilidades</h2>
+      </div>
+
+      <div class="container">
+        <div class="card-skills">
+          <div class="card">
+            <h3 class="titulo-card-html">HTML</h3>
+            <figure>
+              <a href="https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/HTML_basics"
+                target="_blank"><img src="assets/img/html.png" alt="icone HTML" class="icone-card"></a>
+            </figure>
+          </div>
+          <div class="card">
+            <h3 class="titulo-card-css">CSS</h3>
+            <figure>
+              <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank"><img src="assets/img/css.png"
+                  alt="icone CSS" class="icone-card"></a>
+            </figure>
+          </div>
+          <div class="card">
+            <H3 class="titulo-card-js">JavaScript</H3>
+            <figure>
+              <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank"><img
+                  src="assets/img/icone-js.png" alt="icone JavaScript" class="icone-card"></a>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projetos">
+      <div>
+        <h2 class="titulo-projetos">Projetos</h2>
+      </div>
+
+      <div class="projetos-total">
+        <div id="jogo-da-memoria">
+          <a href="https://dudu-1910.github.io/jogo-da-memoria/" target="_blank">
+            <h3 class="subtitulo-projetos">Jogo da Memória</h3>
+          </a>
+          <embed class="projetos" src="https://dudu-1910.github.io/jogo-da-memoria/pages/game.html" allowfullscreen
+            frameborder="0">
+        </div>
+        <div id="autenticflix">
+          <a href="https://dudu-1910.github.io/autenticflix/">
+            <h3 class="subtitulo-projetos">AutenticFlix</h3>
+          </a>
+          <embed class="projetos" src="https://dudu-1910.github.io/autenticflix/" target="_blank">
+        </div>
+        <div id="Contador-de-diversos">
+          <a href="https://dudu-1910.github.io/conversor-de-diversos/">
+            <h3 class="subtitulo-projetos">Contador de diversos</h3>
+          </a>
+          <embed class="projetos" src="https://dudu-1910.github.io/conversor-de-diversos/" target="_blank">
+        </div>
+        <div id="contador-de-datas-regressivo">
+          <a href=" https://dudu-1910.github.io/contador-de-datas-regressivo/">
+            <h3 class="subtitulo-projetos">Contador de datas regressivo</h3>
+          </a>
+          <embed class="projetos" src="https://dudu-1910.github.io/contador-de-datas-regressivo/" target="_blank">
+        </div>
+        <div id="lista-de-tarefas">
+          <a href="https://dudu-1910.github.io/lista-de-tarefas/">
+            <h3 class="subtitulo-projetos">Lista de tarefas</h3>
+          </a>
+          <embed class="projetos" src="https://dudu-1910.github.io/lista-de-tarefas/" target="_blank">
+        </div>
+        <div id="apeperia">
+          <a href="https://dudu-1910.github.io/apeperia/">
+            <h3 class="subtitulo-projetos">Apeperia</h3>
+          </a>
+          <embed class="projetos" src="https://dudu-1910.github.io/apeperia/" target="_blank">
+        </div>
+      </div>
+    </section>
+
+    <section id="contatos">
+      <div>
+        <h3 class="titulo-contato">Contato</h3>
+      </div>
+
+      <div class="icones-link">
+        <figure>
+          <a href="https://api.whatsapp.com/send?phone=5511986510297" target="_blank"><img
+              src="assets/img/icone-whatsapp.png" alt="icone Whatsapp" class="img-icones">
+          </a>
+        </figure>
+        <figure>
+          <a href="https://www.linkedin.com/in/eduardo-henrique-vieira-dos-santos " target="_blank"><img
+              src="assets/img/icone-linkedin.png" alt="icone Linkedin" class="img-icones">
+          </a>
+        </figure>
+        <figure>
+          <a href="https://github.com/Dudu-1910 " target="_blank"><img src="assets/img/icone-github.png"
+              alt="icone Github" class="img-icones">
+          </a>
+        </figure>
+
+      </div>
+
+      <div class="curriculo">
+        <a class="btn-download" href="assets/img/curriculo-eduardo.pdf" target="_blank">Baixar CV </a>
+      </div>
+
+      <div class="contato">
+        <div class="icone-tel">
+          <figure>
+            <a href="tel:+5511987196138" target="_blank">
+              <img src="assets/img/icone-tel.png" alt="icone telefone" class="img-icones">
+            </a>
+          </figure>
+          <div class="titulo-tel">
+            <a href="tel:+5511987196138" target="_blank">
+              <h4>Telefone</h4>
+            </a>
+          </div>
+        </div>
+        <div class="infos-contato">
+          <p>(11) 98719-6138</p>
+        </div>
+
+
+        <div class="icone-email">
+          <figure>
+            <a href="mailto:eduardoh_vieira@outlook.com">
+              <img src="assets/img/icone-email.png" alt="icone email" class="img-icones">
+            </a>
+          </figure>
+          <div class="titulo-email">
+            <a href="mailto:eduardoh_vieira@outlook.com" target="_blank">
+              <h4>Email</h4>
+            </a>
+          </div>
+        </div>
+        <div class="infos-contato">
+          <a href="mailto:eduardoh_vieira@outlook.com" target="_blank">
+            <p>eduardoh_vieira@outlook.com</p>
+          </a>
+
+        </div>
+      </div>
+
+      <div class="icone-local">
+        <figure>
+          <a href="https://www.google.com/maps/place/S%C3%A3o+Paulo,+SP/@-23.5504592,-46.6334301,17z/data=!4m5!3m4!1s0x94ce448183a461d1:0x9ba94b08ff335bae!8m2!3d-23.5557714!4d-46.6395571"
+            target="_blank">
+            <img src="assets/img/icone-local.png" alt="icone Localização" class="img-icones">
+          </a>
+        </figure>
+        <div class="titulo-local">
+          <h4>Localização</h4>
+        </div>
+      </div>
+      <div class="infos-contato">
+        <p>São Paulo - SP</p>
+      </div>
+    </section>
+
+    <footer>
+      <div class="rodape">
+        <p>Desenvolvido por Eduardo Henrique | 2022</p>
+        <p>Todos os direitos reservados</p>
+        <div class="icone-rodape">
+          <a href="https://api.whatsapp.com/send?phone=5511986510297" target="_blank">
+            <img src="assets/img/icone-whatsapp.png" alt="icone Whatsapp" class="img-icones">
+          </a>
+          <a href="https://www.linkedin.com/in/eduardo-henrique-vieira-dos-santos " target="_blank">
+            <img src="assets/img/icone-linkedin.png" alt="icone Linkedin" class="img-icones">
+          </a>
+          <a href="https://github.com/Dudu-1910 " target="_blank">
+            <img src="assets/img/icone-github.png" alt="icone Github" class="img-icones">
+          </a>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="assets/JS/main.js"></script>
+</body>
+
+</html>
